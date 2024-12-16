@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { 
   TrendingUp, 
   BrainCog, 
@@ -38,9 +39,9 @@ export default function Home() {
 
             {/* Menu Desktop */}
             <div className="hidden md:flex items-center space-x-12">
-              <a href="#features" className="text-gray-400 hover:text-white transition-colors text-sm">Recursos</a>
-              <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors text-sm">Como Funciona</a>
-              <a href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm">Preços</a>
+              <Link href="#features" className="text-gray-400 hover:text-white transition-colors text-sm">Recursos</Link>
+              <Link href="#how-it-works" className="text-gray-400 hover:text-white transition-colors text-sm">Como Funciona</Link>
+              <Link href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm">Preços</Link>
               <a 
                 href="http://app.cryph.ai/"
                 target="_blank"
@@ -64,9 +65,9 @@ export default function Home() {
           {mobileMenuOpen && (
             <div className="md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-lg border-t border-white/10">
               <div className="flex flex-col space-y-4 p-6">
-                <a href="#features" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Recursos</a>
-                <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Como Funciona</a>
-                <a href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Preços</a>
+                <Link href="#features" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Recursos</Link>
+                <Link href="#how-it-works" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Como Funciona</Link>
+                <Link href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Preços</Link>
                 <a 
                   href="http://app.cryph.ai/"
                   target="_blank"
@@ -236,13 +237,13 @@ export default function Home() {
                 Com algoritmos avançados de machine learning, traders podem agora identificar padrões complexos 
                 e prever movimentos de mercado com precisão sem precedentes.
               </p>
-              <a 
+              <Link 
                 href="/blog/ia-trading-criptomoedas"
                 className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors"
               >
                 Ler mais
                 <ArrowUpRight className="ml-2 w-4 h-4" />
-              </a>
+              </Link>
             </article>
 
             {/* Artigo 2 */}
@@ -254,13 +255,13 @@ export default function Home() {
                 Descubra as cinco estratégias fundamentais que todo investidor deveria conhecer para 
                 maximizar retornos e minimizar riscos.
               </p>
-              <a 
+              <Link 
                 href="/blog/estrategias-gestao-portfolio"
                 className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors"
               >
                 Ler mais
                 <ArrowUpRight className="ml-2 w-4 h-4" />
-              </a>
+              </Link>
             </article>
 
             {/* Artigo 3 */}
@@ -272,13 +273,13 @@ export default function Home() {
                 ou inteligência artificial? Analisamos as vantagens e desvantagens de cada abordagem 
                 e como elas podem trabalhar em conjunto.
               </p>
-              <a 
+              <Link 
                 href="/blog/analise-tecnica-vs-ia"
                 className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors"
               >
                 Ler mais
                 <ArrowUpRight className="ml-2 w-4 h-4" />
-              </a>
+              </Link>
             </article>
           </div>
         </div>
@@ -291,25 +292,25 @@ export default function Home() {
             <div>
               <h3 className="text-sm mb-4">Produto</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="#features" className="hover:text-white">Recursos</a></li>
-                <li><a href="#pricing" className="hover:text-white">Preços</a></li>
-                <li><a href="#demo" className="hover:text-white">Demo</a></li>
+                <li><Link href="#features" className="hover:text-white">Recursos</Link></li>
+                <li><Link href="#pricing" className="hover:text-white">Preços</Link></li>
+                <li><Link href="#demo" className="hover:text-white">Demo</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm mb-4">Empresa</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="#about" className="hover:text-white">Sobre</a></li>
-                <li><a href="#blog" className="hover:text-white">Blog</a></li>
-                <li><a href="#careers" className="hover:text-white">Carreiras</a></li>
+                <li><Link href="#about" className="hover:text-white">Sobre</Link></li>
+                <li><Link href="#blog" className="hover:text-white">Blog</Link></li>
+                <li><Link href="#careers" className="hover:text-white">Carreiras</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm mb-4">Legal</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="#privacy" className="hover:text-white">Privacidade</a></li>
-                <li><a href="#terms" className="hover:text-white">Termos</a></li>
-                <li><a href="#security" className="hover:text-white">Segurança</a></li>
+                <li><Link href="#privacy" className="hover:text-white">Privacidade</Link></li>
+                <li><Link href="#terms" className="hover:text-white">Termos</Link></li>
+                <li><Link href="#security" className="hover:text-white">Segurança</Link></li>
               </ul>
             </div>
             <div>
