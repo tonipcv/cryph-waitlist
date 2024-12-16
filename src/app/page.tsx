@@ -216,6 +216,74 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Blog Section */}
+      <section className="py-20 border-t border-white/5">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-2xl font-light mb-4 tracking-wide">Blog</h2>
+            <p className="text-gray-400 max-w-2xl mx-auto text-sm">
+              Aprenda mais sobre criptomoedas e inteligência artificial
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Artigo 1 */}
+            <article className="bg-black border border-white/10 rounded-xl p-6 space-y-4 hover:border-white/20 transition-colors">
+              <span className="text-xs text-gray-400">15 Janeiro, 2024</span>
+              <h3 className="text-xl font-light">Como a IA está Revolucionando o Trading de Criptomoedas</h3>
+              <p className="text-gray-400 text-sm line-clamp-3">
+                A inteligência artificial tem transformado significativamente o mercado de criptomoedas. 
+                Com algoritmos avançados de machine learning, traders podem agora identificar padrões complexos 
+                e prever movimentos de mercado com precisão sem precedentes.
+              </p>
+              <a 
+                href="/blog/ia-trading-criptomoedas"
+                className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Ler mais
+                <ArrowUpRight className="ml-2 w-4 h-4" />
+              </a>
+            </article>
+
+            {/* Artigo 2 */}
+            <article className="bg-black border border-white/10 rounded-xl p-6 space-y-4 hover:border-white/20 transition-colors">
+              <span className="text-xs text-gray-400">10 Janeiro, 2024</span>
+              <h3 className="text-xl font-light">5 Estratégias Essenciais para Gestão de Portfolio Cripto</h3>
+              <p className="text-gray-400 text-sm line-clamp-3">
+                Uma gestão eficiente de portfolio é crucial para o sucesso no mercado de criptomoedas. 
+                Descubra as cinco estratégias fundamentais que todo investidor deveria conhecer para 
+                maximizar retornos e minimizar riscos.
+              </p>
+              <a 
+                href="/blog/estrategias-gestao-portfolio"
+                className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Ler mais
+                <ArrowUpRight className="ml-2 w-4 h-4" />
+              </a>
+            </article>
+
+            {/* Artigo 3 */}
+            <article className="bg-black border border-white/10 rounded-xl p-6 space-y-4 hover:border-white/20 transition-colors">
+              <span className="text-xs text-gray-400">5 Janeiro, 2024</span>
+              <h3 className="text-xl font-light">Análise Técnica vs IA: O Futuro do Trading</h3>
+              <p className="text-gray-400 text-sm line-clamp-3">
+                Com o avanço da tecnologia, surge um debate importante: análise técnica tradicional 
+                ou inteligência artificial? Analisamos as vantagens e desvantagens de cada abordagem 
+                e como elas podem trabalhar em conjunto.
+              </p>
+              <a 
+                href="/blog/analise-tecnica-vs-ia"
+                className="inline-flex items-center text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Ler mais
+                <ArrowUpRight className="ml-2 w-4 h-4" />
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
       {/* Footer - Mobile Adjustments */}
       <footer className="border-t border-white/5 py-8 sm:py-12">
         <div className="container mx-auto px-4 sm:px-6">
