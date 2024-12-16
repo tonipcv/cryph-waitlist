@@ -125,25 +125,25 @@ export default function BlogPost() {
             <div>
               <h3 className="text-sm mb-4">Produto</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="/#features" className="hover:text-white">Recursos</a></li>
-                <li><a href="/#pricing" className="hover:text-white">Preços</a></li>
-                <li><a href="/#demo" className="hover:text-white">Demo</a></li>
+                <li><Link href="/#features" className="hover:text-white">Recursos</Link></li>
+                <li><Link href="/#pricing" className="hover:text-white">Preços</Link></li>
+                <li><Link href="/#demo" className="hover:text-white">Demo</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm mb-4">Empresa</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="/#about" className="hover:text-white">Sobre</a></li>
-                <li><a href="/#blog" className="hover:text-white">Blog</a></li>
-                <li><a href="/#careers" className="hover:text-white">Carreiras</a></li>
+                <li><Link href="/#about" className="hover:text-white">Sobre</Link></li>
+                <li><Link href="/#blog" className="hover:text-white">Blog</Link></li>
+                <li><Link href="/#careers" className="hover:text-white">Carreiras</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm mb-4">Legal</h3>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="/#privacy" className="hover:text-white">Privacidade</a></li>
-                <li><a href="/#terms" className="hover:text-white">Termos</a></li>
-                <li><a href="/#security" className="hover:text-white">Segurança</a></li>
+                <li><Link href="/#privacy" className="hover:text-white">Privacidade</Link></li>
+                <li><Link href="/#terms" className="hover:text-white">Termos</Link></li>
+                <li><Link href="/#security" className="hover:text-white">Segurança</Link></li>
               </ul>
             </div>
             <div>
