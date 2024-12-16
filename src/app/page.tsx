@@ -42,7 +42,7 @@ export default function Home() {
               <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors text-sm">Como Funciona</a>
               <a href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm">Preços</a>
               <a 
-                href="https://app.cryph.com.br/"
+                href="http://app.cryph.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-white/20 hover:bg-white/5 px-6 py-2 rounded-full text-sm transition-colors"
@@ -68,7 +68,7 @@ export default function Home() {
                 <a href="#how-it-works" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Como Funciona</a>
                 <a href="#pricing" className="text-gray-400 hover:text-white transition-colors text-sm py-2">Preços</a>
                 <a 
-                  href="https://app.cryph.com.br/"
+                  href="http://app.cryph.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border border-white/20 hover:bg-white/5 px-6 py-3 rounded-full text-sm transition-colors text-center"
@@ -99,7 +99,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center lg:justify-start">
                 <a 
-                  href="https://app.cryph.com.br/"
+                  href="http://app.cryph.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-6 sm:px-8 py-3 border border-white/20 hover:bg-white/5 rounded-full text-sm transition-colors group"
@@ -204,7 +204,7 @@ export default function Home() {
                 </p>
               </div>
               <a 
-                href="https://app.cryph.com.br/"
+                href="http://app.cryph.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full lg:w-auto inline-flex items-center justify-center px-8 py-3 border border-white/20 hover:bg-white/5 rounded-full text-sm transition-colors"
