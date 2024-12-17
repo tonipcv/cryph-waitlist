@@ -316,15 +316,15 @@ export default function Home() {
             <div>
               <h3 className="text-sm mb-4">Social</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-white">
+                <span className="text-gray-400">
                   <Twitter className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                </span>
+                <span className="text-gray-400">
                   <Github className="w-5 h-5" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-white">
+                </span>
+                <span className="text-gray-400">
                   <Globe className="w-5 h-5" />
-                </a>
+                </span>
               </div>
             </div>
           </div>
