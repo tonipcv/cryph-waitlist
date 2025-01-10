@@ -28,11 +28,11 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Image
-                src="/logo.png"
+                src="/logo1.png"
                 alt="CRYPH"
-                width={100}
-                height={32}
-                className="h-8 w-auto sm:h-10"
+                width={80}
+                height={24}
+                className="h-6 w-auto sm:h-8"
                 priority
               />
             </div>
