@@ -17,6 +17,7 @@ import {
   X
 } from "lucide-react";
 import { useState } from 'react';
+import CaptureForm from '../components/CaptureForm';
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -185,6 +186,52 @@ export default function Home() {
               <p className="text-gray-400 text-sm">
                 Otimização automática do seu portfolio baseada em análises avançadas.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Capture Section */}
+      <section className="py-12 sm:py-20 border-t border-white/10">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-2xl mx-auto text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl font-light mb-4 bg-gradient-to-r from-gray-100 to-gray-400 text-transparent bg-clip-text">
+              Sistema de Criptomoedas com Alto Potencial
+            </h2>
+            <div className="space-y-4">
+              <p className="text-gray-300 text-sm sm:text-base font-medium">
+                📈 Descubra como nossos investidores estão obtendo retornos expressivos no mercado cripto
+              </p>
+              <ul className="text-gray-400 text-sm space-y-2">
+                <li>✅ Análise avançada por Inteligência Artificial</li>
+                <li>✅ Oportunidades exclusivas de alto potencial</li>
+                <li>✅ Suporte personalizado para maximizar seus resultados</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="max-w-md mx-auto bg-zinc-900/50 border border-zinc-800 rounded-xl p-6 sm:p-8 relative overflow-hidden shadow-lg">
+            <div className="relative z-10">
+              <CaptureForm />
+            </div>
+            
+            {/* Background Pattern */}
+            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:20px_20px] pointer-events-none"></div>
+          </div>
+
+          {/* Trust Indicators */}
+          <div className="max-w-2xl mx-auto mt-12 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center">
+            <div>
+              <Shield className="w-6 h-6 mx-auto mb-2 text-gray-400" />
+              <p className="text-sm text-gray-400">Dados Seguros</p>
+            </div>
+            <div>
+              <BrainCog className="w-6 h-6 mx-auto mb-2 text-gray-400" />
+              <p className="text-sm text-gray-400">Análise por IA</p>
+            </div>
+            <div className="col-span-2 sm:col-span-1">
+              <Bell className="w-6 h-6 mx-auto mb-2 text-gray-400" />
+              <p className="text-sm text-gray-400">Alertas 24/7</p>
             </div>
           </div>
         </div>
