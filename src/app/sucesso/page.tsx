@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Award } from 'lucide-react';
 
 export default function Sucesso() {
   return (

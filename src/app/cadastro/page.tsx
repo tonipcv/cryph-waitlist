@@ -64,7 +64,7 @@ export default function Cadastro() {
       <div className="w-full max-w-sm text-center">
         <div className="mb-12">
           <h1 className="text-3xl font-light mb-4">CRYPH</h1>
-          <h2 className="text-2xl text-gray-300 font-light mb-4">Preencha os dados abaixo para criar a sua conta gratuita:</h2>
+          <h2 className="text-2xl text-gray-300 font-light mb-4">Preencha os dados abaixo para criar a sua conta:</h2>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">

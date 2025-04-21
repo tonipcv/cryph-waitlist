@@ -14,7 +14,6 @@ export default function CaptureForm() {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -73,17 +72,6 @@ export default function CaptureForm() {
       setFormData(prev => ({ ...prev, [name]: value }));
     }
   };
-
-  if (submitted) {
-    return (
-      <div className="text-center p-8 space-y-4">
-        <div className="text-2xl font-light">Parabéns pelo seu interesse!</div>
-        <p className="text-gray-400">
-          Em breve nossa equipe entrará em contato para apresentar as oportunidades exclusivas de alto potencial no mercado cripto.
-        </p>
-      </div>
-    );
-  }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
